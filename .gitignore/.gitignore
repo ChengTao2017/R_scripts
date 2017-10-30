@@ -1,0 +1,1 @@
+for(j in 1:length(f1$chr)){for(i in 1:length(f2$start)){if( as.character(f1$chr[j])==as.character(f2$chr[i]) && f1$start[j]>f2$start[i] && f1$end[j]<f2$end[i]) print(f2[i,])}}
